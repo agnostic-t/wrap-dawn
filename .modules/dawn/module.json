@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "sfml",
+    "name": "dawn",
     "version": "0.0.0",
     "priority": 20
   },
@@ -8,14 +8,7 @@
   "code": {
     "includes": ["include"],
     "lib-dirs": ["bin"],
-    "libraries": [
-      "sfml-graphics",
-      "sfml-window",
-      "sfml-system",
-      "sfml-audio",
-      "sfml-network",
-      "sfml-system"
-    ]
+    "libraries": []
   },
 
   "only-deps": true,
