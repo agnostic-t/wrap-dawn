@@ -19,7 +19,6 @@ mkdir -p "$ROOT/.build"
 mkdir -p "$INSTALL_DIR"
 
 git clone \
-    --depth 1 \
     https://dawn.googlesource.com/dawn \
     "$SOURCE_DIR"
 
