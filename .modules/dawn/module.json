@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "sfml",
+    "version": "0.0.0",
+    "priority": 20
+  },
+
+  "code": {
+    "includes": ["include"],
+    "lib-dirs": ["bin"],
+    "libraries": [
+      "sfml-graphics",
+      "sfml-window",
+      "sfml-system",
+      "sfml-audio",
+      "sfml-network",
+      "sfml-system"
+    ]
+  },
+
+  "only-deps": true,
+  "target": "valgrind"
+}

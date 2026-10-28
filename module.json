@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "wrap-sfml3",
+    "version": "0.0.0"
+  },
+
+  "dependencies": {
+    "sfml": { "version": ">=0.0.0" }
+  },
+
+  "hooks": {
+     "pre-build": [ "./scripts/compile.sh" ]
+   },
+
+  "only-deps": true,
+  "defaults": "defaults.json",
+  "target": "valgrind",
+  "testsPath": ".tests"
+}

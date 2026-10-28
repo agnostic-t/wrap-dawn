@@ -1,0 +1,11 @@
+{
+  "export": {
+    "modules": {
+      "dawn": {
+        "version": ">=0.0.0",
+        "name": "dawn"
+      }
+    },
+    "tests": false
+  }
+}
