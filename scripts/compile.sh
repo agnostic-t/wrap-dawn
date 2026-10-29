@@ -10,7 +10,7 @@ INSTALL_DIR="$ROOT/.modules/dawn"
 
 rm -rf "$SOURCE_DIR"
 rm -rf "$BUILD_DIR"
-rm -rf "$INSTALL_DIR"
+rm -rf "$INSTALL_DIR/include" "$INSTALL_DIR/lib" "$INSTALL_DIR/bin"
 
 mkdir -p "$ROOT/.src" "$ROOT/.build" "$INSTALL_DIR"
 

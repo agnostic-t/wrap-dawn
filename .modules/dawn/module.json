@@ -7,8 +7,8 @@
 
   "code": {
     "includes": ["include"],
-    "lib-dirs": ["lib64"],
-    "libraries": ["webgpu_dawn"]
+    "lib-dirs": ["lib"],
+    "libraries": ["dawn_glfw", "webgpu_dawn"]
   },
 
   "only-deps": true,
