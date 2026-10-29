@@ -34,9 +34,3 @@ In dependencies of modules:
   }
 }
 ```
-
-Before running, if you compiled dynamic version set LD_LIBRARY_PATH:
-
-```sh
-export LD_LIBRARY_PATH=./.vendor/dawn/.modules/dawn/bin
-```
